@@ -1,0 +1,65 @@
+*{margin:0;padding:0}
+#box{
+    width:100%;
+    height:1401px;
+    background:#ccc;
+}
+
+/* ----------header区域开始------------ */
+#box .header{
+    width:100%;
+    height: 62px;
+    background:#232323;
+}
+
+.hesder
+/* ----------header区域开始------------ */
+
+
+#box .banner{
+    width:100%;
+    height:420px;
+    
+}
+/* ----------main1区域开始------------ */
+#box .main1{
+    width:100%;
+    height: 350px;
+    background:#f5f5f5;
+}
+
+/* ----------main1区域结束------------ */
+
+
+/* ----------main2区域开始------------ */
+#box .main2{
+    width:100%;
+    height: 310px;
+    background:#ffffff;
+}
+
+
+/* ----------main2区域结束------------ */
+
+/* ----------main3区域开始------------ */
+#box .main3{
+    width:100%;
+    height: 215px;
+    background:#222222;
+}
+/* ----------main3区域结束------------ */
+
+
+
+/* ----------footer区域开始------------ */
+#box .footer{
+    width:100%;
+    height: 215px;
+    background:#222222;
+}
+#box .content{
+    width:1000px;
+    height: 100%;
+    background:pink;
+    margin:auto;
+}
