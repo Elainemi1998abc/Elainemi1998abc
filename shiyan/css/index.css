@@ -1,0 +1,76 @@
+@charset 'utf-8';
+/*字符编码格式*/
+/*css reset*
+  目的：使我们使用的标签默认样式都清除
+  通配符*是否存在：通配符*表示选中页面中所有的标签。
+  margin:0 auto;
+*/
+html,body,ul,ol,dd,dt,p,h1,h2,h3,h4,h5,h6,form,fieldset,legend,img,input{margin:0;padding:0;}
+body{font-size:16px;font-family:'微软雅黑';}
+ul,ol,li{list-style:none;}
+b,strong{font-weight:normal;}
+i,em{font-style:normal;}
+a,u{text-decoration:none;}
+h1,h2,h3,h4,h5,h6{font-size:16px:font-weight:normal;}
+input{outline:none;}
+/* top*/
+#top{width:1000px;height:100px;margin:0 auto;}
+#top h1{width:255px;height:71px;float:left;padding:29px 0 0 22px;}
+#top form{width:247px;height:61px;float:right;padding-top:39px;}
+#top form input{border:0;}
+.txt{width:195px;height:26px;border:1px solid #e5e5e5;background:f1f1f1;color:#818181;float:left;border-right:0;}
+.btn{width:30px;height:26px;border:1px solid #e5e5e5;
+	background:f1f1f1 url(images/btn_03.jpg) no-repeat center;float:left;border-left:0;}
+
+
+/*nav*/
+/*当元素的width*/
+#nav{height:58px;background:#313131;margin:0 auto;}
+.nav-cont{width:1000px;height:58px;margin:0 auto;}   /*当文本高度等于容器高度时58px,文本上下居中*/
+.nav-cont li{float:left;/}
+.nav-cont li a{color:fdfdfd;white-space:pre;}
+.nav-cont .border0{border:0;}
+.nav-cont .mar{margin-left:27px;}
+/*
+   导航条的步骤
+         1、网页的主导导航条一般情况下用标签ul来写
+         2、结构嵌套<li><a href="#"></a></li>
+         3、首先让li进行浮动，并且更改li的大小
+         4、设置a里面的样式
+*/
+/*banner* 在列表里，列表符号用url来写*/
+.news-list{margin-top:23px;}
+#banner{width:1000px;height:465px;background:orange;margin:0 auto;}
+#news{width:1000px;height:269px;margin:0 auto;}
+.news-l{width:478px;height:269px;background:#ccc;float:left;padding-left:22px;}
+.news-l h2{font-size:18px;color:#4a515b;line-height:18px;padding-top:36px;}
+.news-list li{width:450px;height:25px;background:url(images/listbg_03.jpg) no-repeat center;margin-bottom:2px;line-height:25px;}
+.news-list li a{float:left;color:#505050;white-space:nowrap;text-overflow:ellipsis;width:296px;overflow:hidden;}
+/*要实现单行文本的溢出省略号显示
+        1、强制文本在一行内显示：white-space：nowrap
+        2、让溢出的文本隐藏：overflow:hidden;
+        3、省略号显示：text-overflow:ellipsis
+        4、当前元素必须有宽！！
+        注：只有单行文本才能设置文本溢出
+
+*/
+/*.news-list li span{float:right;color:#929292;}
+.news-c{width:240px;height:240px;background:#fbfbfb;border-left:1px solid #fff;float:left;padding:0 23px 0 20px;}
+.news-c h2{x;color:#4f4f4f;line-height:25px;margin:33px 0 15px;}
+.news-c .txt1{font:12px;height:25px;color:#a3a3a3;margin:33px 0 15px;}
+.news-c .txt2{font-size:12px;color:#969696;line-height:24px;}
+
+.news-r{width:180px;height:240px;background:#f1f1f1 url(images/bg1_03.jpg) no-repeat 142px 136px;float:right;padding:0 55px 0 24px;}
+.news-r h2{font-size:18px;padding-top:36px;line-height:18px;color:#1d1d1d;}
+.news-r p{}
+/*
+   新闻列表步骤
+         1、先给li添加高度
+         2、如果列表后边有时间的情况下，给a和装时间的标签（span）添加浮动
+         3、调整文本样式(字体、字号、文本颜色)
+         4、以背景的形式添加列表符号并且控制列表符号的位置
+         5、控制文本的位置  line-height
+
+*
+/*case*/
+#case{width:1000px;height:275px;background:pink;}
