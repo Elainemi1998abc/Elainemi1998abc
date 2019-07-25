@@ -1,0 +1,185 @@
+#box{
+    width: 100%;
+    height: 5302px;
+    background:#ccc;
+}
+
+#box .header{
+    height: 83px;   
+    background:}
+.content{
+    width:1145px;
+    background:pink;
+    margin:auto;
+    height:100%;
+}
+.header .logo{
+    height:100%;
+    width:387px;
+    text-align: center;
+    background:url(../images/logo.png) no-repeat center center;
+    text-indent: -999px;
+    
+}
+.header .content ul{
+     height:83px;
+}
+ul li{
+    float:left;
+    /* margin:0 31px; */
+    margin-left: 62px;
+    font-size: 12px;
+    line-height: 83px;
+    height:83px;
+
+}
+ul li.first {
+    margin-left: 0;
+}
+ul li.last {
+    margin-right: 6px;
+}
+
+li a{
+    display: block;
+}
+ul li .yinwen{
+    display: none;
+    text-transform: uppercase;
+}
+li:hover .zhongwen{
+    display: none;
+}
+li:hover .yinwen{
+    display: block;
+}
+#box .banner{
+    height: 638px;
+    background:url(../images/12.jpg) no-repeat center center;
+    width:100%;
+}
+ .main1 .content{
+    height:726px;
+    overflow: hidden;
+}
+
+ .content h2{
+     margin-top:42px;
+     line-height: 43px;
+     font-size:43px;
+     text-align: center;
+     color:#fc81ad;
+     text-transform: capitalize;
+ }
+.content  p{
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #666666;
+    margin-top:24px;
+}
+
+.main1 .content .cont{
+    width:100%;
+    height:440px;
+
+    margin-top:56px;
+}
+.cont .cont1{
+    width:350px;
+    height:218px;
+    margin: 0 44px 4px 0;
+ 
+}
+.cont .cont-top{
+    float:left;
+}
+.cont .cont-bottom{
+    float:left;
+}
+.cont .cont2{
+    background:url(../images/bus_tu1.jpg) no-repeat center center;
+}
+.cont .cont3{
+    background:url(../images/bus_tu2.jpg) no-repeat center center;
+}
+.cont .cont4{
+    background:url(../images/bus_tu3.jpg) no-repeat center center;
+}
+.cont .cont5{
+    background:url(../images/bus_tu4.jpg) no-repeat center center;
+}
+.cont .cont6{
+    background:url(../images/bus_tu5.jpg) no-repeat center center;
+}
+.cont .cont7{
+    background:url(../images/bus_tu6.jpg) no-repeat center center;
+}
+
+
+#box .main2{
+    height:763px;
+    background:blue; 
+} 
+.main2 .content {
+  overflow: hidden;
+}
+.main2 .main-bottom{
+    width:100%;
+    height:502px;
+    background:yellow;
+    margin-top:57px;
+}
+.main-bottom .ma{
+    float:left;
+    border-bottom:1px solid #ccc;
+    border-right:1px solid #ccc;
+}
+#box .main3{
+    height:684px;
+    background:#ebeff1;
+}
+.main3 .works img{
+    text-align: center;
+    margin:42px 0 0 483px;
+}
+.content .mm {
+    height: 424px;
+    widows: 100%;
+    background:yellow;
+    margin-top:56px;
+}
+.ma1 img{
+    width:283px;
+    height:211px;
+   
+    border-right: 1px solid #fff;
+}
+ .mm .ma2{
+     border-bottom:1px solid #fff;
+ }
+.mm .ma1{
+    float:left;
+}
+
+
+
+
+
+
+
+/* ----main4 */
+
+
+
+#box .news{
+    height:682px;
+    background:;
+
+ #box .content{
+    margin:auto;
+    background:red;
+    width:1145px;
+    height: 100%;   
+}
+
